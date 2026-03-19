@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "nitsha_skinema",
+  "version": "${version}",
+  "name": "Nitsha Skinema",
+  "description": "A powerful tool for your mod.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nitsha_skinema/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.nitsha.skinema.client.MainDataGenerator"
+    ],
+    "client": [
+      "com.nitsha.skinema.client.MainClient"
+    ],
+    "main": [
+      "com.nitsha.skinema.Main"
+    ]
+  },
+  "mixins": [
+    "nitsha_skinema.mixins.json",
+    {
+      "config": "nitsha_skinema.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

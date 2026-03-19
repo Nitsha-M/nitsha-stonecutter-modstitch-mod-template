@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "name": "${mod_name}",
+  "version": "${mod_version}",
+  "icon": "${mod_icon}",
+  "description": "${mod_description}",
+  "environment": "*",
+  "contact": {
+    "homepage" : "https://modrinth.com/mod/nitshas-skinema",
+    "issues": "https://github.com/Nitsha-M/Nitsha-s-Skinema/issues"
+  },
+  "entrypoints": {
+    "main": [
+      "com.nitsha.skinema.loaders.fabric.Init"
+    ],
+    "modmenu": [
+      "com.nitsha.skinema.configs.ModMenuApiImpl"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.curseforge": "",
+        "modmenu.modrinth": "",
+        "modmenu.discord": ""
+      }
+    }
+  },
+  "depends": {
+    "fabricloader" : ">=${fabric_loader}",
+    "minecraft": "${mod_versionRange}"
+  },
+  "recommends": {
+    "modmenu": "*"
+  }
+}
