@@ -1,7 +1,7 @@
 //? if fabric {
-package com.nitsha.skinema.loaders.fabric;
+package com.nitsha.template.loaders.fabric;
 
-import com.nitsha.skinema.Main;
+import com.nitsha.template.Main;
 import net.fabricmc.api.ModInitializer;
 
 public class Init implements ModInitializer {

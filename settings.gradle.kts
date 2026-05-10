@@ -42,8 +42,8 @@ stonecutter {
 //        mc("1.21.8", loaders = loaders_2)
 //        mc("1.21.5", loaders = loaders_2)
 //        mc("1.21.4", loaders = loaders_2)
-        mc("1.21.3", loaders = loaders_1_1)
-//        mc("1.21.1", loaders = loaders_2)
+//        mc("1.21.3", loaders = loaders_1_1)
+        mc("1.21.1", loaders = loaders_2)
 
         // 1.20
 //        mc("1.20.6", loaders = loaders_2)
@@ -65,7 +65,7 @@ stonecutter {
         // 1.16
 //        mc("1.16.5", loaders = loaders_1_1)
 
-        vcsVersion = "1.21.3-fabric"
+        vcsVersion = "1.21.1-fabric"
     }
 }
 

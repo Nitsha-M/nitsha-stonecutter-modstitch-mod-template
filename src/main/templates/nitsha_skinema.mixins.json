@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.nitsha.skinema.mixin",
+  "package": "com.nitsha.template.mixin",
   "compatibilityLevel": "JAVA_${java_version}",
   "priority": 1500,
   "mixins": [],
